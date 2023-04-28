@@ -33,15 +33,18 @@ body {
 
 .contain-img  a {
     display:flex;
-    background-color: white;
+    background-color: rgb(232, 226, 226);
     border-radius:3px;
     border-style: solid;
-    border-color: red yellow green hsla(60, 90%, 50%, .8);
+    border-color: red;
     position: relative;
     gap: 100px;
     margin-top: -50px;
-    
     margin-left: -100px;
+    border-radius: 30px;
+    color: black;
+    padding: 1px 3px;
+    cursor: pointer;
 
 }
 
