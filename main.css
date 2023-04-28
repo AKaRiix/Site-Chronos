@@ -11,27 +11,42 @@ body {
     width: 100%;
     height: 2000px;
 }
+/*Carrousel */
+.caroussel {
+    padding: 0.2rem;
+    border-radius: 1px;
+    max-width: auto;
+    width:150vw;
+    margin: 8px;
+    scale: 0.4;
+    margin-top: -370px;
 
+}
+/* Gauche/Droite automatique */
+@keyframes slidein {
+    from {
+      margin-right: 100%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: -350%;
+      width: 900%;
+    }
+}
 
 .contain-img{
     display: flex;
     gap: 40px;
     overflow-x:auto;
+    animation: 18s infinite alternate slidein;
     width: auto;
-    margin-top:50px;
-    height:80%;
-}
-
-.contain-link{
-    display: flex;
-    gap: 190px;
-    overflow-x:auto;
-    width: auto;
+    margin-top:5px;
     height:100%;
-    margin-top: -1150px;
 }
 
-.contain-img  a {
+
+.contain-link a {
     display:flex;
     background-color: rgb(232, 226, 226);
     border-radius:3px;
@@ -39,7 +54,7 @@ body {
     border-color: red;
     position: relative;
     gap: 100px; 
-    margin-top: -50px;
+    margin-top: 50px;
     margin-left: -100px;
     border-radius: 30px;
     color: black;
@@ -74,6 +89,7 @@ body {
 .responsive {
     max-width: 100%;
     height: 25%;
+    max-height:50%;
   }
 
   /* Style buttons */
