@@ -38,7 +38,7 @@ body {
     border-style: solid;
     border-color: red;
     position: relative;
-    gap: 100px;
+    gap: 100px; 
     margin-top: -50px;
     margin-left: -100px;
     border-radius: 30px;
