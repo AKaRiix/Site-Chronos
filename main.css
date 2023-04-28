@@ -18,6 +18,7 @@ body {
     gap: 40px;
     overflow-x:auto;
     width: auto;
+    margin-top:50px;
     height:80%;
 }
 
@@ -32,13 +33,13 @@ body {
 
 .contain-img  a {
     display:flex;
-    background-color: rgba(0,0,0,0);;
+    background-color: white;
     border-radius:3px;
     border-style: solid;
     border-color: red yellow green hsla(60, 90%, 50%, .8);
     position: relative;
     gap: 100px;
-    margin-top: 0px;
+    margin-top: -50px;
     
     margin-left: -100px;
 
