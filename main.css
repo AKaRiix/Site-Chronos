@@ -32,8 +32,10 @@ body {
 
 .contain-img  a {
     display:flex;
-    background-color: yellowgreen;
-    
+    background-color: rgba(0,0,0,0);;
+    border-radius:3px;
+    border-style: solid;
+    border-color: red yellow green hsla(60, 90%, 50%, .8);
     position: relative;
     gap: 100px;
     margin-top: 0px;
