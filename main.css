@@ -39,7 +39,7 @@ body {
     display: flex;
     gap: 40px;
     overflow-x:auto;
-    animation: 18s infinite alternate slidein;
+    animation: 22s infinite alternate slidein;
     width: auto;
     margin-top:5px;
     height:100%;
