@@ -30,7 +30,7 @@ body {
     }
   
     to {
-      margin-left: -450%;
+      margin-left: -520%;
       width: 1000%;
     }
 }
@@ -39,7 +39,7 @@ body {
     display: flex;
     gap: 40px;
     overflow-x:auto;
-    animation: 35s infinite alternate slidein;
+    animation: 40s infinite alternate slidein;
     width: auto;
     margin-top:5px;
     height:100%;
