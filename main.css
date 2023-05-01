@@ -40,12 +40,11 @@ overflow-x: hidden;
       width: 1500%;
     }
 }
-
 .contain-img{
     display: flex;
     gap: 40px;
     overflow-x:auto;
-    animation: 60s infinite alternate slidein;
+    animation: 0s infinite alternate slidein;
     width: auto;
     margin-top:5px;
     height:100%;
@@ -94,17 +93,28 @@ overflow-x: hidden;
     border-color: transparent;
 }
 
-.responsive {
+/* .responsive {
     max-width: 100%;
     height: 25%;
     max-height:50%;
+} */
+
+  .responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top:100px ; 
+    
   }
 
 .tutodecals {
-    position: absolute;
-    margin-left: 25%;
-    margin-top: -400px;
-
+    /* position: absolute; */
+    margin-top: -450px; 
+    display: block;
+    margin-left: 27%;
+    margin-right: auto;
+    width: 50%;
 
 }
 .tutodecals h1 {
@@ -116,6 +126,6 @@ overflow-x: hidden;
 .contact {
     positon:relative;
     text-align:center;
-    margin-top: 500px;
+    margin-top: 100px;
     font-style: italic;
 }
