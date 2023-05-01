@@ -14,6 +14,7 @@ body {
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
     overflow-y: scroll;
+overflow-x: hidden;
 }
 /*Carrousel */
 .caroussel {
@@ -101,7 +102,7 @@ body {
 
 .tutodecals {
     position: absolute;
-    margin-left: 300px;
+    margin-left: 25%;
     margin-top: -400px;
 
 
