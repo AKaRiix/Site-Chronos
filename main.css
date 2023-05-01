@@ -26,12 +26,12 @@ body {
 @keyframes slidein {
     from {
       margin-right: 100%;
-      width: 100%;
+      width: 180%;
     }
   
     to {
-      margin-left: -350%;
-      width: 900%;
+      margin-left: -450%;
+      width: 1000%;
     }
 }
 
@@ -39,10 +39,12 @@ body {
     display: flex;
     gap: 40px;
     overflow-x:auto;
-    animation: 40s infinite alternate slidein;
+    animation: 35s infinite alternate slidein;
     width: auto;
     margin-top:5px;
     height:100%;
+    margin-left: -2000px;
+
 }
 
 
@@ -92,18 +94,14 @@ body {
     max-height:50%;
   }
 
-  /* Style buttons */
-.btn {
-    background-color: DodgerBlue;
-    border: none;
+.tutodecals {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -400px;
+
+}
+.tutodecals h1 {
     color: white;
-    padding: 12px 30px;
-    cursor: pointer;
-    font-size: 20px;
-    height: 25%;
-  }
-  
-  /* Darker background on mouse-over */
-  .btn:hover {
-    background-color: RoyalBlue;
-  }
+    position: relative;
+    text-align:center;
+}
