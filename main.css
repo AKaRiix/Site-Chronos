@@ -111,3 +111,10 @@ body {
     position: relative;
     text-align:center;
 }
+
+.contact {
+    positon:relative;
+    text-align:center;
+    margin-top: 500px;
+    font-style: italic;
+}
