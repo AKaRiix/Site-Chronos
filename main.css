@@ -45,7 +45,7 @@ overflow-x: hidden;
     display: flex;
     gap: 40px;
     overflow-x:auto;
-    animation: 35s infinite alternate slidein;
+    animation: 50s infinite alternate slidein;
     width: auto;
     margin-top:5px;
     height:100%;
