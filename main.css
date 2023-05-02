@@ -38,7 +38,7 @@ overflow-x: hidden;
     to {
       margin-left: -660%;
       width: 1500%;
-    }
+    } 
 }
 .contain-img{
     display: flex;
