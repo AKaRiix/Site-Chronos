@@ -67,7 +67,6 @@ overflow-x: hidden;
     color: black;
     /* padding: 1px 3px; */
     cursor: pointer;
-    /* padding-left: 10px; */
 
 }
 
@@ -99,6 +98,8 @@ overflow-x: hidden;
     height: 20%;
     max-height:60%;
     align-items: center;
+    scale: 0.95;
+    padding: -1%;
 }
 
   /* .responsive {
