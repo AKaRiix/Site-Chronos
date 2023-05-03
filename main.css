@@ -6,18 +6,22 @@
     color: white;
     
 }
+html, body,head {
+    height: auto;
+  /* overflow: hidden;  */
+  }
 
 body {
     background:  no-repeat radial-gradient(#C6BDBB, #000000);
-    width: 100%;
-    height: 2000px;
+    /* width: 100%; */
+    /* height: 2000px;
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
-    scrollbar-width: none; /* for Firefox */
+    /* scrollbar-width: none; for Firefox 
     overflow-y: scroll;
-overflow-x: hidden;
+overflow-x: hidden; */
 }
 /*Carrousel */
-.caroussel {
+/* .caroussel {
     padding: 0.2rem;
     border-radius: 1px;
     max-width: auto;
@@ -27,9 +31,9 @@ overflow-x: hidden;
     margin-top: -370px;
 
 
-}
+} */
 /* Gauche/Droite automatique */
-@keyframes slidein {
+/* @keyframes slidein {
     from {
       margin-right: 100%;
       width: 180%;
@@ -39,7 +43,7 @@ overflow-x: hidden;
       margin-left: -660%;
       width: 1500%;
     } 
-}
+} */
 .contain-img{
     display: flex;
     gap: 40px;
@@ -72,6 +76,72 @@ overflow-x: hidden;
 
 
 
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .button-container a {
+    background-color:#eb2f05;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: calc(10% - 10px);
+    max-width: 150px;
+  }
+  
+  @media (max-width: 768px) {
+   .button-container a {
+      width: calc(20% - 10px);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Bouton à droite */
 .social{
     position: static;
     margin-left: 80%;
@@ -93,39 +163,46 @@ overflow-x: hidden;
     border-color: transparent;
 }
 
-.responsive {
-    max-width: 100%;
-    height: 20%;
-    max-height:60%;
+/* Test Avec AI */
+
+/* Deux image Gauche droite */
+.image-container {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    scale: 0.95;
-    padding: -1%;
-}
+  }
+  
+  .image-container img {
+    margin: 0 10px;
+    max-width: 50%;
+  }
 
-  /* .responsive {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    margin-top:100px ; 
-    
-  } */
 
-.tutodecals {
+/* Video */
+.video-wrapper {
     position: relative;
-    margin-top: -450px; 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-
-}
-.tutodecals h1 {
-    color: rgb(0, 0, 0);
+    padding-bottom: 56.25%;
+    margin-top:00px; 
+    height: 0;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  /* text au dessus de la video */
+  .tuto  h1 {
+    color:black;
     position: relative;
     text-align:center;
 }
 
+/* Contact Aka ou fonda*/
 .contact {
     position:relative;
     text-align:center;
