@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Chronos</title>
+    <link rel="shortcut icon" href="Chronox_logo_0.2.ico" type="image/x-icon">
+    <link  rel="script" href="script.js">
+
+    <div class="title">
+    <h1>🚧Journal de Chronos ⚠️🚧🚧</h1>
+</div>
+</head>
+
+<body>
+    <!-- Bouton facebook et instagram -->
+     <div class="social"> 
+        <a href="bakkesmod://install/108"><button><img src="plugin.png" alt="plugin"></button></a>
+        <a href="https://www.twitch.tv/structure_chronos"><button><img src="twitch.png" alt="twitch" ></button></a>
+        <a href="https://www.tiktok.com/@structure_chr0nos"><button><img src="tiktok.png" alt="tiktok" ></button></a>
+        <a href="https://www.youtube.com/channel/UCGJGw5ysUMIB90GfPxU8uAg"><button><img src="youtube.png" alt="youtube" ></button></a>
+
+    </div>
+    <div class="button-container2">
+        <a href="https://structurechronos.github.io/#/" >Home</a>
+        <a href="https://structurechronos.github.io/Decals/" >Decals</a>
+        <a href="https://structurechronos.github.io/EnLive/" >Twitch en Direct</a> 
+        <a href="https://structurechronos.github.io/Journal/" >🚧Journal🚧</a> 
+    </div>    
+
+    <!-- <object type="image/png"
+    data="images/CT1.png"
+    width="500"
+    height="800">
+    </object>
+    <object type="image/png"
+    data="images/CT2.png"
+    width="500"
+    height="800">
+    </object> -->
+
+    <body>
+        <div class="slide-container">
+          <div class="custom-slider fade">
+            <div class="slide-index">1 / 4</div>
+            <img class="slide-img" src="images/CT1.png">
+            <div class="slide-text">Chronos' Time 1</div>
+          </div>
+          <div class="custom-slider fade">
+            <div class="slide-index">2 / 4</div>
+            <img class="slide-img" src="images/CT2.png">
+            <div class="slide-text">Chronos' Time 1</div>
+          </div>
+          <div class="custom-slider fade">
+            <div class="slide-index">3 / 4</div>
+            <img class="slide-img" src="images/CT3.png">
+            <div class="slide-text">Chronos' Time 1</div>
+          </div>
+          <div class="custom-slider fade">
+            <div class="slide-index">4 / 4</div>
+            <img class="slide-img" src="images/CT4.PNG">
+            <div class="slide-text">Chronos' Time 1</div>
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div class="slide-dot">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+
+        </div>
+    </body>
+    </html>
+
+
+
+
+    <script>
+        var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("custom-slider");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+    </script>
