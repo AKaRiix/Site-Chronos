@@ -80,7 +80,9 @@ body {
     justify-content: space-between;
   }
   .button-container2 a {
-    background-color:#00d5ff;
+    /* background-color:#00d5ff; */
+    background-color:#a69e33;
+
     border: none;
     color: white;
     padding: 10px 32px;
